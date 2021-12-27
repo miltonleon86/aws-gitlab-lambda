@@ -1,0 +1,21 @@
+# Ignore all the lambda archives
+*.zip
+
+# Ignore IDEA files
+.idea
+dist
+.DS_Store
+.nyc_output
+yarn-error.log
+
+# NPM
+node_modules
+build
+npm-debug.log
+.env
+.serverless/
+.eslintcache
+.npm
+logs
+*.log
+./stack.json

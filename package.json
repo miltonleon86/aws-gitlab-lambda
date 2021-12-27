@@ -1,0 +1,28 @@
+{
+  "name": "serverless-framework-with-js",
+  "version": "1.0.0",
+  "description": "Example project using the Serverless Framework, JavaScript, AWS Lambda, AWS API Gateway and GitLab Pages.",
+  "dependencies": {
+    "latest-version": "^6.0.0",
+    "serverless": "^2.69.1",
+    "serverless-jest-plugin": "^0.4.0",
+    "serverless-offline": "^8.3.1",
+    "serverless-stack-output": "^0.2.3"
+  },
+  "devDependencies": {
+    "axios": "^0.24.0",
+    "http-server": "^14.0.0",
+    "wait-on": "^6.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "deploy": "serverless deploy",
+    "start": "npm i && serverless offline",
+    "pages": "http-server"
+  },
+  "jest": {
+    "testMatch": [
+      "**/?(*.)+(spec|test).[jt]s?(x)"
+    ]
+  }
+}
