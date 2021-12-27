@@ -12,7 +12,6 @@ AWS lambda node 12 runtime
 ## Local Environment
 
 * This is already integrated with docker - Check docker-compose.yml
-* 
 ```$bash
 docker-compose up -d
 ```
