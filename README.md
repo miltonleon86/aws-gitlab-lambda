@@ -4,7 +4,7 @@
 Feel free to start from here but if you are new into AWS Lambda and the Serverless framework 
 I would advise to take a look at the following article also written by me:
 
-[AWS Docker Gitlab Serverless - The easy way](https://medium.com/@miltonleon86/aws-docker-gitlab-serverless-the-easy-way-42e09a64f894)
+[AWS Docker Gitlab Serverless - The easy way](https://miltonleon.medium.com/aws-docker-gitlab-serverless-the-easy-way-42e09a64f894)
 
 
 ```$bash
